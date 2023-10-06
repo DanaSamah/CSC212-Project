@@ -1,8 +1,8 @@
 package phonebookApp;
 import java.util.Scanner;
 
-public class Contact<T> implements comparable<T>{
-	// I removed the genric from contact
+public class Contact implements comparable<String>{
+	// I removed the generic from contact
 	private String name;
 	private String phoneNumber; //String or int
 	private String emailAddress;
@@ -81,12 +81,20 @@ public class Contact<T> implements comparable<T>{
 		this.notes = notes;
 	}
 	
-	public int compareTo(String n) {
-	     return name.compareTo(n) ;
+	public int compareTo(Contact c) {
+		// I ignore the case but not sure if it is true
+	     return name.compareToIgnoreCase(c.name) ;
 	     //will return a -1 or 1 or 0
 			
 		
 			
 	}
+
+	
+	public String toString() {
+		return "Contact [name=" + name + ", phoneNumber=" + phoneNumber + ", emailAddress=" + emailAddress
+				+ ", address=" + address + ", birthday=" + birthday + ", notes=" + notes + "]";
+	}
+	
 	}
 

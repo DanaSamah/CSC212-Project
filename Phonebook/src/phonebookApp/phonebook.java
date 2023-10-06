@@ -1,8 +1,8 @@
 package phonebookApp;
 import java.util.Scanner;
 public class phonebook {
-	public static void main(String[] args) {
-		System.out.println("Please choose an option:\r\n"
+	public static void main(String[] args) { 
+	 System.out.println("Please choose an option:\r\n"
 				+ "1. Add a contact\r\n"
 				+ "2. Search for a contact\r\n"
 				+ "3. Delete a contact\r\n"
@@ -48,6 +48,20 @@ do{
 	}
     }while(y);
 		
-
-}
-}
+/*Contact a = new Contact("asma a","00","ss","sss","2000","as");
+Contact b = new Contact("basma","22","ss","sss","2000","as");
+Contact c = new Contact("anwar","22","ss","sss","2000","as");
+Contact e = new Contact("sara","55","ss","sss","2000","as");
+Contact d = new Contact("asma b","10","ss","sss","2000","as");
+linkedlist<Contact> a1 = new linkedlist<Contact>();
+a1.add(b);
+a1.add(a);
+a1.add(c);
+a1.add(e);
+a1.add(d);
+a1.findFirst();
+for (int i=0 ; i<4; i++) {
+System.out.println(a1.retrieve());
+a1.findNext();
+}*/
+	}}	
