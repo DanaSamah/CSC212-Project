@@ -32,7 +32,7 @@ public class  linkedlist<T> implements List<T>{
 		}
 		
 	}
-	System.out.print("Nada is here");
+	
 	 
 	
 
