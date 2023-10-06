@@ -46,7 +46,7 @@ do{
 	System.out.println("Re-enter a correct number from 1-8 ");
 		break;
 	}
-    }while(y);
+    }while(y); 
 		
 /*Contact a = new Contact("asma a","00","ss","sss","2000","as");
 Contact b = new Contact("basma","22","ss","sss","2000","as");
