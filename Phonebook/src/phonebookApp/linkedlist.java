@@ -99,7 +99,7 @@ public class  linkedlist<T> implements List<T>{
 	
 
 	public Contact search() {
-		System.out.println();
+		System.out.println("fgytr");
       return null;
 	}
 
@@ -110,8 +110,8 @@ public class  linkedlist<T> implements List<T>{
 	current=head;}  	
 	else{
 	if(current.next==null)
-	{current=head}
-	else{current=current.next}}
+	{current=head;}
+	else{current=current.next;}}
 		
 	/*public void add(T c) {
 	Node NewC =new Node(c);
