@@ -105,10 +105,14 @@ public class  linkedlist<T> implements List<T>{
 
 	
 	public void delete() {
-		if (current == head) {  
-            head = head.next;  
-        }  	
-	}
+	if (current == head) {  
+        head = head.next;
+	current=head;}  	
+	else{
+	if(current.next==null)
+	{current=head}
+	else{current=current.next}}
+		
 	/*public void add(T c) {
 	Node NewC =new Node(c);
 	if (head==null) 
