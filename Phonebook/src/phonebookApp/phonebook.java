@@ -60,7 +60,7 @@ a1.add(c);
 a1.add(e);
 a1.add(d);
 a1.findFirst();
-for (int i=0 ; i<4; i++) {
+for (int i=0 ; i<3; i++) {
 System.out.println(a1.retrieve());
 a1.findNext();
 }*/
