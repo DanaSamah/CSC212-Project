@@ -98,6 +98,7 @@ public class  linkedlist<T> implements List<T>{
 	
 
 	public Contact search() {
+		System.out.println();
       return null;
 	}
 

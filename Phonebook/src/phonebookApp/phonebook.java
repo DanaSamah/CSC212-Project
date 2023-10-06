@@ -43,7 +43,7 @@ do{
 		break;
 	default:
 			
-	System.out.println("Re-enter a correct number from 1-8");
+	System.out.println("Re-enter a correct number from 1-8 ");
 		break;
 	}
     }while(y);
@@ -64,4 +64,4 @@ for (int i=0 ; i<3; i++) {
 System.out.println(a1.retrieve());
 a1.findNext();
 }*/
-	}}	
+	} }	
